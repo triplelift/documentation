@@ -128,6 +128,7 @@ Our server to server integration expects bid requests formatted with the followi
 }
 ```
 
+## Bid Response
 ### Bid Response (Web and App)
 Our response will contain the following fields:
 
