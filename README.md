@@ -16,6 +16,9 @@
 ## Server to Server Integration
 1. [Server to Server Integration](server2server.md)
 
+## Wrapper Integration
+1. [Wrapper Integration](wrapper.md)
+
 ## User Sync
 [User Sync](usersync.md)
 
