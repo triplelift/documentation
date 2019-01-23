@@ -1,8 +1,8 @@
 ## OpenRTB 2.3 Samples
 1. [Native Bid Request](#native-bid-request)
-2. [TripleLift OpenRTB 2.2 Video Integration Specs](#wizard-bid-request)
-3. [TripleLift OpenRTB 2.2 Video Integration Specs](#video-bid-request)
-4. [TripleLift OpenRTB 2.2 Video Integration Specs](#header-direct-bid-request)
+2. [Wizard Bid Request](#wizard-bid-request)
+3. [Video Bid Request](#video-bid-request)
+4. [Header Direct Bid Request](#header-direct-bid-request)
 ### Native Bid Request
 ```json
 {
