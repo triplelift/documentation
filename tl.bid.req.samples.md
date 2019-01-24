@@ -1,4 +1,4 @@
-## OpenRTB 2.3 Samples
+## Sample Bid Requests
 1. [Native Bid Request](#native-bid-request)
 2. [Wizard Bid Request](#wizard-bid-request)
 3. [Video Bid Request](#video-bid-request)

@@ -14,6 +14,9 @@
 2. [TripleLift OpenRTB 2.3 Video Integration Specs](ortb2.3.tl.video.md)
 3. [TripleLift OpenRTB 2.3 Samples](ortb2.3.tl.samples.md)
 
+### Samples
+1. [TripleLift Bid Request Samples](tl.bid.req.samples.md)
+
 ## Server to Server Integration
 1. [Server to Server Integration](server2server.md)
 
