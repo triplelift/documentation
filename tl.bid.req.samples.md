@@ -346,4 +346,3 @@
 }
 ```
 
-### Header Direct Bid Response
