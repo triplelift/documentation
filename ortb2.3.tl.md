@@ -540,7 +540,7 @@ The asset object must contain one of title, img, video or data.
 |Field|Scope|Type|Notes|
 |--- |--- |--- |--- |
 |viewtracker|Optional|string|Pixel URL to be fired when the ad is viewable. Note that this is a client initiated request, without macro replacement.|
-|useaadchoices|Optional|boolean|If the useadchoices parameter for your bidder is set to "when_specified", then the adchoicesurl that you specified for your bidder will be used to overlay the adchoices icon. You do not need to include this in the response if useadchoices is either "always" or "never." If you set this to true, but the adchoicesurl has not been defined and no adchoicesoverrideurl has been provided, the bid will lose. If this field is not included in the response, and useadchoices is "when_specified," this will be treated as false, even if adchoicesoverrideurl is provided.|
+|useadchoices|Optional|boolean|If the useadchoices parameter for your bidder is set to "when_specified", then the adchoicesurl that you specified for your bidder will be used to overlay the adchoices icon. You do not need to include this in the response if useadchoices is either "always" or "never." If you set this to true, but the adchoicesurl has not been defined and no adchoicesoverrideurl has been provided, the bid will lose. If this field is not included in the response, and useadchoices is "when_specified," this will be treated as false, even if adchoicesoverrideurl is provided.|
 |adchoicesoverrideurl|Optional|string|This will override the bidder-level adchoicesurl when provided.|
 
 ### 3.2. TripleLift OpenRTB Implementation
