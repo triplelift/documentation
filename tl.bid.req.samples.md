@@ -1,6 +1,6 @@
 ## Sample Bid Requests
 1. [Native Bid Request](#native-bid-request)
-2. [Native 1.2 Bid Request](#native-1.2-bid-request)
+2. [Native 1.2 Bid Request](#native12-bid-request)
 3. [Wizard Bid Request](#wizard-bid-request)
 4. [Video Bid Request](#video-bid-request)
 5. [Header Direct Bid Request](#header-direct-bid-request)
