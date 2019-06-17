@@ -1,8 +1,9 @@
 ## Sample Bid Requests
 1. [Native Bid Request](#native-bid-request)
-2. [Wizard Bid Request](#wizard-bid-request)
-3. [Video Bid Request](#video-bid-request)
-4. [Header Direct Bid Request](#header-direct-bid-request)
+2. [Native 1.2 Bid Request](#native-1.2-bid-request)
+3. [Wizard Bid Request](#wizard-bid-request)
+4. [Video Bid Request](#video-bid-request)
+5. [Header Direct Bid Request](#header-direct-bid-request)
 ### Native Bid Request
 ```json
 {
@@ -90,6 +91,113 @@
   },
   "source": {
     "pchain": "6c33edb13117fd86:4887"
+  }
+}
+```
+### Native 1.2 Bid Request
+```json
+{
+  "id": "65673520512019368150",
+  "at": 2,
+  "tmax": 184,
+  "imp": [
+    {
+      "id": "1",
+      "tagid": "22793",
+      "secure": 1,
+      "ext": {
+        "wopv": "25ab6152-ed16-4e1b-ba9d-d80f353544f8"
+      },
+      "native": {
+        "ver": "1.2",
+        "request": "{\"ver\":\"1.2\",\"context\":1,\"plcmttype\":1,\"plcmtcnt\":1,\"seq\":0,\"aurlsupport\":1,\"privacy\":1,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":100}},{\"id\":2,\"required\":1,\"img\":{\"type\":3,\"w\":320,\"wmin\":240,\"h\":50,\"hmin\":38}},{\"id\":3,\"required\":0,\"img\":{\"type\":2,\"wmin\":25,\"hmin\":25}},{\"id\":4,\"required\":0,\"data\":{\"type\":2,\"len\":300}},{\"id\":5,\"required\":1,\"data\":{\"type\":1,\"len\":30}},{\"id\":6,\"required\":0,\"video\":{\"mimes\":[\"video/mp4\",\"video/webm\",\"video/mpeg\",\"application/javascript\"],\"minduration\":1,\"maxduration\":900,\"protocols\":[1,2,3,4,5,6,7,8],\"ext\":{\"playbackmethod\":[3]}}}],\"eventtrackers\":[{\"event\":1,\"methods\":[1,2]},{\"event\":2,\"methods\":[1]}]}",
+        "ext": {
+          "triplelift": {
+            "formats": [
+              1,
+              2,
+              4,
+              5,
+              6,
+              9,
+              10
+            ]
+          }
+        },
+        "api": [
+          1,
+          2
+        ]
+      }
+    }
+  ],
+  "site": {
+    "id": "37059",
+    "domain": "littlethings.com",
+    "cat": [
+      "IAB18",
+      "IAB9",
+      "IAB24",
+      "IAB1",
+      "IAB8",
+      "IAB7",
+      "IAB10",
+      "IAB12",
+      "579",
+      "560",
+      "239",
+      "42",
+      "210",
+      "223",
+      "274",
+      "379"
+    ],
+    "page": "https://www.littlethings.com/student-dies-leftover-pasta?utm_source=LTcom&utm_medium=Facebook&utm_campaign=celebrity&utm_content=1NC",
+    "publisher": {
+      "id": "5921",
+      "cat": [
+        "IAB18",
+        "IAB9",
+        "IAB24",
+        "IAB1",
+        "IAB8",
+        "IAB7",
+        "IAB10",
+        "IAB12",
+        "579",
+        "560",
+        "239",
+        "42",
+        "210",
+        "223",
+        "274",
+        "379"
+      ]
+    }
+  },
+  "device": {
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; SM-S327VL Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/225.0.0.47.118;]",
+    "geo": {
+      "type": 2,
+      "country": "USA",
+      "region": "FL",
+      "metro": "686",
+      "city": "Baker",
+      "zip": "32531"
+    },
+    "ip": "173.31.128.159",
+    "devicetype": 4,
+    "make": "Google",
+    "os": "Android",
+    "osv": "6",
+    "language": "en"
+  },
+  "user": {
+    "id": "16515134754534630770",
+    "buyeruid": "U8G2KgeasyVLwuYpUMX6JQCS5ixLwLUrVsYHpc66"
+  },
+  "source": {
+    "pchain": "6c33edb13117fd86:2992"
   }
 }
 ```
